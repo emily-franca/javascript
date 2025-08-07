@@ -1,0 +1,34 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(19, 19, 19), rgb(40, 40, 40));
+}
+
+section {
+    min-width: 400px;
+    width: 600px;
+    padding: 50px;
+    background-color: #b3aea933;
+    color: beige;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.204);
+}
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 15px;
+    text-shadow: 0 4px 15px black;
+    color: #eed2b0;
+}
+p {
+    font-size: 1.5rem;
+}
